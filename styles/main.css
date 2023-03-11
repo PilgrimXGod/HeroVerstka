@@ -1,0 +1,279 @@
+/*Background*/
+body {
+    position: relative;
+    width: 1440px;
+    height: 725px;
+
+    background: #0E0B2C;
+    border-radius: 30px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*Blur Circles*/
+.circles {
+    display: flex;
+    flex-direction: row;
+}
+.eclipse1 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.eclipse2 {
+    position: fixed;
+    right:  0px;
+    top: 0px;
+}
+
+/*Header*/
+header {
+    height: 49px;
+    width: 1064px;
+    position: absolute;
+    margin: 33px 187px 818px 189px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo*/
+.logo-container {
+    height: 49px;
+    width: 200px;
+    padding: 0 0 0 0;
+    display: flex;
+}
+
+.logo-first {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.logo-second {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FF0642;
+}
+
+/*Links*/
+nav {
+    width: 417px;
+    padding: 16px 0 16px 339px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.nav-links li a {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-links li a:hover {
+    transition-duration: 300ms;
+    color: #FF0642;
+}
+
+/*Hire Me Button*/
+.hire-me-container {
+    width: 96px;
+    height: 40px;
+    border: 1.5px solid #FF0642;
+    border-radius: 50px;
+}
+
+.hire-me {
+    position: absolute;
+    padding: 12px 20px 11px 20px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+}
+
+.hire-me:hover {
+    rotate: 15deg;
+}
+
+/*Title*/
+.title {
+    position: absolute;
+    width: 558px;
+    height: 306px;
+    left: 189px;
+    top: 283px;
+}
+
+.hello-there {
+
+    position: absolute;
+    width: 340px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.about-me {
+    position: absolute;
+    width: 600px;
+    height: 201px;
+    left: 1px;
+    top: 10px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.first-string, .third-string {
+    color: #FFFFFF;
+}
+
+.second-string {
+    color: #FF0642;
+}
+
+.portfolio {
+    box-sizing: border-box;
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    left: 1px;
+    top: 270px;
+    background: #FF0642;
+    border: 1.5px solid #FF0642;
+    border-radius: 50px;
+}
+
+.contact {
+    box-sizing: border-box;
+    position: absolute;
+    width: 159px;
+    height: 36px;
+    left: 200px;
+    top: 270px;
+    border: 1.5px solid #FF0642;
+    border-radius: 50px;
+    background-color: transparent;
+
+}
+
+.portfolio span {
+    position: absolute;
+    width: 110px;
+    height: 17px;
+    left: 15px;
+    top: 8px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+}
+
+.portfolio img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 130px;
+    top: 4px;
+}
+
+.portfolio span:hover {
+    rotate: 10deg;
+}
+
+.portfolio:hover {
+    cursor: pointer;
+}
+
+.contact span {
+    position: absolute;
+    width: 95.82px;
+    height: 17px;
+    left: 15px;
+    top: 8px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+
+.contact img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 120px;
+    top: 6px;
+}
+
+.contact span:hover {
+    rotate: 10deg;
+}
+
+.contact:hover {
+    cursor: pointer;
+}
+
+.hero-photo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 480px;
+    left: 841px;
+    top: 184px;
+    background-image: linear-gradient(120deg, #FF0642, #E514B2A7, #061FFFAD);
+    border-radius: 50px;
+}
+.hero-photo img{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    border-radius: 50px;
+}
